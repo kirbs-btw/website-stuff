@@ -1,0 +1,81 @@
+:root{
+  /* Color Sheme */
+  --secColor: #e3e3e3;  /* Grey Borders Inputs */
+  --secColorTwo: #3b5998; /* Blue Facebook Top */
+  --mainColor: #eeeeee; /* Grey background*/
+  --fontColor: #242424; /* Font Color*/
+  --gradientVar: #62A626, #459400; /*green*/ /* Gradient Registieren Button*/
+  /* Padding */
+  --paddingInputTopBottom: 12px;
+}
+
+h1{
+  font-family: Gotham Black;
+  color: var(--fontColor);
+}
+
+body{
+  color: var(--fontColor);
+}
+
+form{
+  background-color: var(--mainColor);
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #8c8c8c;
+  text-align: left;
+}
+
+#oben{
+ background-color: var(--secColorTwo);
+ color: white;
+ left: 0%;
+ top: 0%;
+ height: 10%;
+ font-size: 400%;
+ width: 50%;
+ font-family:'Tahoma';
+}
+
+#unten{
+ background-color: var(--mainColor);
+ left: 0%;
+ top: 100%;
+ width: 100%;
+}
+
+#inputsMove{
+  position: relative;
+  right: 2.5%;
+}
+
+input[type=text], input[type=password]{
+  border: 1.5px solid var(--secColor);
+  border-radius: 4px;
+  padding-top: var(--paddingInputTopBottom);
+  padding-bottom: var(--paddingInputTopBottom);
+  margin: 5px;
+}
+select{
+  border: 1.5px solid var(--secColor);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.senden{
+  background-image: linear-gradient(var(--gradientVar));
+  color: white;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  width: 50%;
+  height: 5%;
+  font-size: 100%;
+  font-family:'Tahoma';
+}
+
+.fragezeichen{
+ font-size: 70%;
+ color: #3b5998;
+ text-align: left;
+}
