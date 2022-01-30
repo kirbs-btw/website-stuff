@@ -1,0 +1,33 @@
+
+.form-group{
+  margin: auto;
+  background-color: #8fa7ff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 50%;
+  height: auto;
+  border-radius: 5vh;
+}
+
+.form-group > *{
+  margin: 2%;
+  font-family: sans-serif;
+}
+
+textarea{
+  resize: vertical;
+}
+
+input, button, textarea{
+  padding: 1%;
+  border-radius: 1vh;
+  border-style: hidden;
+}
+
+button:hover{
+  background-color: #616161;
+  color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
